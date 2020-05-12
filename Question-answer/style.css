@@ -1,0 +1,26 @@
+button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #D9043D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #BF0404;
+    position: absolute;
+    top: 45%;
+    left: 43%;
+  }
+  
+  button:hover {background-color: #F23D5E}
+
+  button:active {
+    background-color: #F22E3E;
+    box-shadow: 0 5px #BF0404;
+    transform: translateY(4px);
+  }
+  body{
+      background: linear-gradient(to right, #F21D1D, #F25C5C );
+  }

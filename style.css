@@ -1,0 +1,66 @@
+*{
+    text-decoration: none;
+    text-align: center;
+}
+h4{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    text-align: left;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 25px;
+}
+h2{
+    text-align: center;
+    color: #0583F2;
+}
+.blog{
+    text-align: center;
+   /* max-width: 650px;
+    width: 100%; */ 
+    border-style: solid;
+}
+.react{
+    border-style: solid;
+    margin-top: 5px;
+    text-align: center;
+}
+.spotify{
+    border: solid;
+    margin-top: 5px;
+}
+body{
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(to right, #00AAFF, #00FF6C );
+}
+.ad{
+    text-align: center;
+    max-height: 40px;
+    color: red;
+}
+
+/*body::-webkit-scrollbar{
+    
+} */
+
+.mat{
+    color:#0583F2;
+}
+footer {
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+}
+.soru{
+    border-radius: 5%;
+    outline: none;
+    width: 70px;
+    height: 40px;
+}

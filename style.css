@@ -23,6 +23,9 @@ h2{
     width: 100%; */ 
     border-style: solid;
 }
+.ilk{
+    height: 3200px;
+}
 .react{
     border-style: solid;
     margin-top: 5px;
@@ -63,4 +66,10 @@ footer {
     outline: none;
     width: 70px;
     height: 40px;
+}
+.proposal p{
+    color: black;
+}
+.proposal{
+    border: 1px solid;
 }

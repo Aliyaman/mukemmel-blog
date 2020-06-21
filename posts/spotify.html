@@ -7,6 +7,7 @@
     <meta name="author" content="Ali Yaman"/>
     <link rel="stylesheet" href="../style.css">
     <link rel="shortcut icon" href="https://image.flaticon.com/icons/svg/391/391335.svg"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Websitenize Spotify Playlisti Yerleştirme</title>
 </head>
 <body>
@@ -22,5 +23,16 @@
     <p>Kodunuzu Çalıştırın</p>
     <p>İşte Bukadar Okuduğunuz İçin Teşekkür Ederim :).</p>
     <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXe2bobNYDtW8" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <button onclick="copy('aliyaman.net')">Linki Kopyala &nbsp;<i class="fa fa-clone"></i></button>
+    <script>
+        function copy(text) {
+   var textarea = document.createElement("textarea");
+   textarea.value = text;
+   document.body.appendChild(textarea);
+   textarea.select();
+   document.execCommand("copy");
+   document.body.removeChild(textarea);
+ }
+    </script>
 </body>
 </html>

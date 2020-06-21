@@ -2,6 +2,10 @@
     text-decoration: none;
     text-align: center;
 }
+::selection{
+    color: #7934BF;
+    background-color: transparent;
+}
 h4{
     font-size: 25px;
 }
@@ -34,6 +38,9 @@ h2{
 .spotify{
     border: solid;
     margin-top: 5px;
+}
+button{
+    background-color: #00AAFF;
 }
 body{
     max-width: 650px;

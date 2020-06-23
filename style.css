@@ -8,20 +8,26 @@
 }
 @media screen and (max-width: 600px) {
     .blog{
-        width: 590px;
+        width: 98.3%; /* 590px */
         margin-left: 3px;
     }
     .react{
-        width: 590px;
+        width: 98.3%;
         margin-left: 3px;
     }
     .spotify{
-        width: 590px;
+        width: 98.3%;
         margin-left: 3px;
     }
     .ilk{
         font-size: 20px;
     }
+   .floating-btn{
+       margin-bottom: 25px;
+   }
+   .social-panel-container.visible{
+       margin-top: 35px;
+   }
   }
 h4{
     font-size: 25px;

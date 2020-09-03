@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/svg/2292/2292170.svg"/>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tor Ağı Üzerinde Nasıl .onion uzantılı Websitesi Açarsınız</title>
+</head>
+<body>
+    <p class="article">Uzun Bir Süreden Sonra Tekrar Merhabalar Bugün Tor Ağı Üzerinde Nasıl .onion uzantılı Websitesi Açarsınız ona bakacağız.</p>
+    <h3>Hadi Başlayalım</h3>
+    <p class="daniel">Bunun ilk yolu tor ağı üzerinde bulunan diğer websitelerinden hosting hizmeti almak bunun ücretlileri ve ücretsiz yolları var ben ücretsiz yoldan  ve kendi bilgisayarınız üzerinden bunu yapmadan bahsedeceğim.</p>
+    <h3>Daniels Hosting</h3>
+    <p>Ilk yol Daniels Hosting buradan kendi websitenizi ücretsiz bir şekilde yayınlayabiliriniz. Bugün Bunu anlatmayacağım ona <a style="color:red;" href="https://www.youtube.com/watch?v=8ThqUq3ca8U" target="_blank">buradan</a> bakabilirsiniz. Türkçe Değil ama ordaki adımları takip ederseniz yapabilirsiniz. </p>
+    <h3>Ikinci Yol Kendi Websiteniz</h3><!-- fikir server kiralama -->
+    <p class="toor">Ilk önce sizin linux tabanlı bir işletim sistemine ihtiyacınız var. Neden windows üzerinden yapmıyoruz çünkü biraz zor.</p>
+    <p class="toor">Bu yöntemin bir dezavantajı var oda makinenizin sürekli açık olması gerekmekte.</p>
+
+    <p class="rrc">Tamam Hadi Başlayalım. Ilk önce komut satırını açıp "apt-get install tor" yazıp entera basıyoruz bu bizim için tor'u indirecek. Ardından "apt-get install apache2" yazın buda bizim web serverimiz olacak.
+    </p>
+    <p class="rrc2">Tor'u indirdikten sonra "mousepad /etc/tor/torrc" yazıp entera basıyoruz biraz sayfada aşağı indikten sonra karşınıza "HiddenServiceDir ve HiddenServicePort yazıcak" onların başında '#' olacak onu kaldırın ve kaydedin. Eğer bunlar yazmıyosa kendiniz şunları yazın "HiddenServiceDir /etc/tor/hidden_service ve HiddenServicePort 80 127.0.0.1:80" ve kaydedip çıkın.</p>
+    <p class="rrc3">Bunu Yaptıktan sonra komut satırına "service tor start" yazıp enter'a basın. Ardından "cd /etc/tor/hidden_service" yazıp enter'a basın ve "ls" komutu ile hangi dosyaların olduğuna bakın 2 tane dosya olucak "hostname" ve "private_key" ardından "cat hostname" yazarak .onion linkinizi kopyalayın sonra tor'da açmaya çalışın açamayacaksınız çünkü web serverimizi başlatmadık.</p>
+    <p class="rrc4">Web serveri çalıştırmak için "service apache2 start" yazın ve enter'a basın bu sefer linkin açılması lazım açılmassa "service tor restart" yazın enter'a basın.</p>
+    <p class="rrc5">Websiteniz /var/www/html klasörünün altında bulunan index.html dosyası kendinize göre düzenleyin. Artık Tor ağında bir Websiteye sahipsiniz. Bu part 1 part 2 de nasıl özel domain nasıl alacağınıza bakıcağız.</p>
+
+    <h3>Ekstra</h3>
+    <p>Yazıyı yazdıktan sonra aklıma geldi bir server kiralayıp serverla bağlantı kurduktan sonrada aynı adımları uygulayabilirsiniz.</p>
+
+    <button onclick="copy('https://aliyaman.github.io/mukemmel-blog/posts/tor-ağında-site-açma.html')">Linki Kopyala &nbsp;<i class="fa fa-clone"></i></button>
+    <a href="../index.html"><button>Ana Menü'ye dön &nbsp;<i class="fa fa-home"></i></button></a>
+    <p>Bunlarda İlgini Çekebilir.</p>
+    <a href="./deep-web.html">
+    <div class="proposal">
+        <p>Deep Web Nedir?</p>
+    </div>
+    </a>
+</div>
+<script>
+   function copy(text) {
+var textarea = document.createElement("textarea");
+textarea.value = text;
+document.body.appendChild(textarea);
+textarea.select();
+document.execCommand("copy");
+document.body.removeChild(textarea);
+}
+</script>
+</body>
+</html>

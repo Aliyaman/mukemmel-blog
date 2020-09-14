@@ -61,8 +61,29 @@ h2{
     border: solid;
     margin-top: 5px;
 }
+.terminal{
+  height: 50px;
+  background-color: #282828;
+}
+.step-text{
+  font-weight: 500;
+}
+.terminal .rrc{
+  text-align: left;
+  color: #f4f4f4;
+}
+.rrc2{
+  background-color: #282828;
+  text-align: left;
+  color: #f4f4f4;
+}
+.terminal .rrc3{
+  text-align: left;
+  color: #f4f4f4;
+}
 button{
     background-color: #00AAFF;
+    margin-top: 70px;
 }
 body{
     max-width: 650px;
@@ -108,6 +129,7 @@ footer {
     bottom: 0pt;
 }
 .soru{
+  margin-top: 1%;
     border-radius: 5%;
     outline: none;
     width: 70px;

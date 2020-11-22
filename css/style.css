@@ -1,0 +1,143 @@
+*{
+    text-decoration: none;
+    text-align: center;
+}
+::selection{
+    color: #7934BF;
+    background-color: transparent;
+}
+@media screen and (max-width: 600px) {
+    .blog{
+        width: 98.3%; /* 590px */
+        margin-left: 3px;
+    }
+    .react{
+        width: 98.3%;
+        margin-left: 3px;
+    }
+    .spotify{
+        width: 98.3%;
+        margin-left: 3px;
+    }
+   .floating-btn{
+       margin-bottom: 25px;
+   }
+   .social-panel-container.visible{
+       margin-top: 35px;
+   }
+  }
+h4{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    text-align: left;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 25px;
+}
+h2{
+    text-align: center;
+    color: #0583F9;
+}
+/* max width width açıklama */
+ .blog{
+    text-align: center;
+   /*  max-width: 650px;
+    width: 100%;  */
+    border-style: solid;
+}
+.react{
+    border-style: solid;
+    margin-top: 5px;
+    text-align: center;
+}
+.spotify{
+    border: solid;
+    margin-top: 5px;
+}
+.torrc{
+    border: solid;
+    margin-top: 5px;
+}
+.terminal{
+  height: 50px;
+  background-color: #282828;
+}
+.step-text{
+  font-weight: 500;
+}
+.terminal .rrc{
+  text-align: left;
+  color: #f4f4f4;
+}
+.rrc2{
+  background-color: #282828;
+  text-align: left;
+  color: #f4f4f4;
+}
+.terminal .rrc3{
+  text-align: left;
+  color: #f4f4f4;
+}
+button{
+    background-color: #00AAFF;
+    margin-top: 70px;
+}
+body{
+    max-width: 650px;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #00AAFF, #00FF6C );
+}
+.ad{
+    text-align: center;
+    max-height: 40px;
+    color: red;
+}
+/* scrollbar start */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #63CF1F;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #11BD2F;
+  }
+/* scroll bar end */
+.mat{
+    color:#0583F2;
+}
+footer {
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    bottom: 0pt;
+}
+.soru{
+  margin-top: 1%;
+    border-radius: 5%;
+    outline: none;
+    width: 70px;
+    height: 40px;
+}
+.proposal p{
+    color: black;
+}
+.proposal{
+    border: 1px solid;
+}

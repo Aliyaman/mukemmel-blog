@@ -2,6 +2,7 @@ var soru = prompt("Komutlar:kimsin,bana ulaş,site,github,geliştiricin,ali");
 if (soru == "kimsin") {
     alert("ben yapay zeka olmayan yapay zekayım. :)");
 }
+
 if (soru == "bana ulaş") {
     alert("ali4yaman@protonmail.com");
 }

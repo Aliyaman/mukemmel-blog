@@ -26,6 +26,9 @@
        margin-top: 35px;
    }
   }
+.fa{
+      cursor:pointer;
+  }  
 h4{
     font-size: 25px;
 }

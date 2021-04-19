@@ -44,6 +44,10 @@ h2{
     text-align: center;
     color: #0583F9;
 }
+.disclaimer{
+color:#d00000;
+font-size:30px;
+}
 /* max width width açıklama */
  .blog{
     text-align: center;
